@@ -1,0 +1,30 @@
+.monster-list {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 26px;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width:1480px) {
+    .monster-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 75%;
+    }
+}
+
+@media (max-width: 1305px) {
+    .monster-list {
+        grid-template-columns: 1fr 1fr;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1175px) {
+    .monster-list {
+        grid-template-columns: 1fr;
+        width: 55%;
+    }
+}

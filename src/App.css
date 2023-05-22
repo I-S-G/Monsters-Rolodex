@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(to left, rgb(49, 52, 78) , rgba(0, 89, 255, 0.747));
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: "Bigelow Rules";
+}

@@ -1,0 +1,33 @@
+.monster {
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    display: flex;
+    width: 300px;
+    border-radius: 4px;
+    transition: transform 0.14s;
+}
+
+.monster:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.monster-icon {
+    width: 284px;
+    margin-bottom: 36px;
+}
+
+
+.monster-name, .monster-email {
+    color: red;
+    flex: 1;
+    font-size: 30px;
+    font-family: "Bigelow Rules";
+    margin-top: -10px;
+}
+
+.monster-email {
+    margin-bottom: 50px;
+}
